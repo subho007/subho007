@@ -1,152 +1,48 @@
-Android Data file browser and .db file fetcher in PHP
-=====================================================
+# 👋 Hi there, I'm subho007
 
-I have written this small PHP script which acts a a command line file browser
-for android and .db file fetcher. This steals all the Database files which are stored
-in the android /data/data folder and the you can inspect it using SQLite Viewer
+I'm the Co-Founder & CEO of [Appknox](https://www.appknox.com), where I help build cutting-edge security products to make mobile applications safer worldwide. My journey is all about offensive security research, mobile app security, and empowering teams to ship secure code at scale.
 
-Usage
-=====
+---
 
-`php script.php`
+## 🛡️ What I Do
 
-Example Usage
-=============
+- **Expertise:** Mobile Application Security, Offensive Security, Security Product Development  
+- **Notable Skills:**  
+  - **Languages:** Python, Go, Swift, Kotlin, Bash  
+  - **Security Tools:** Frida, Objection, LLDB, Burp Suite, Ghidra  
+  - **Infra & Cloud:** Docker, Kubernetes, GitHub Actions, AWS, GCP  
+  - **Specialties:** Mobile DAST/SAST, RASP bypassing, eBPF for Android, Reverse Engineering, MDM Security
 
-`php script.php`
+---
 
-```
-Welcome to .db file extractor !!
+## 🚀 Featured Projects
 
+- **[KnoxSpy](https://github.com/appknox/KnoxSpy)**  
+  _A Frida-based API traffic interceptor for MDM-managed Android apps._
+- **[Androguard](https://github.com/androguard/androguard)**  
+  _Core developer of this powerful reverse engineering toolkit for Android apps._
+- **[pyaxmlparser](https://github.com/appknox/pyaxmlparser)**  
+  _Lightweight Python library to extract metadata from AndroidManifest.xml files in binary AXML format._
+- **[AFE (Android Framework for Exploitation)](https://github.com/subho007/AFE)**  
+  _Early-stage research project for automating Android app pentesting — old but foundational in my journey into mobile security._
 
-List of devices attached
+---
 
-1 emulator-5554
+## 🌐 Connect with Me
 
-Choose Which device you want to work with? (Enter 1,2,3....)
-1
+- [LinkedIn](https://www.linkedin.com/in/subhohalder/)
+- [Twitter (X)](https://x.com/sunnyrockzzs)
+- [subho.me](https://subho.me)
 
-Found Files in the /data/data/ Folder!
+---
 
-1 com.android.contacts
-2 com.android.settings
-3 com.android.browser
-4 com.tictactoe
-5 com.android.wallpaper.livepicker
-6 com.android.providers.subscribedfeeds
-7 com.android.gesture.builder
-8 com.example.android.softkeyboard
-9 com.example.android.livecubes
-10 com.svox.pico
-11 com.android.soundrecorder
-12 com.android.providers.applications
-13 com.android.certinstaller
-14 com.android.spare_parts
-15 com.android.camera
-16 com.android.packageinstaller
-17 com.android.sdksetup
-18 com.android.providers.drm
-19 com.android.htmlviewer
-20 com.android.term
-21 com.android.customlocale
-22 com.android.inputmethod.latin
-23 com.android.server.vpn
-24 com.android.fallback
-25 com.android.development
-26 android.tts
-27 com.android.globalsearch
-28 jp.co.omronsoft.openwnn
-29 com.android.gallery
-30 com.google.android.providers.enhancedgooglesearch
-31 com.android.music
-32 com.android.netspeed
-33 com.android.calculator2
-34 com.android.phone
-35 com.example.android.apis
-36 com.android.providers.media
-37 com.android.mms
-38 com.xysecv4
-39 com.xysecv3
-40 com.android.providers.settings
-41 com.android.providers.telephony
-42 com.android.providers.contacts
-43 com.android.providers.downloads
-44 com.android.launcher
-45 com.android.alarmclock
-46 com.android.email
-47 net.learn2develop.SMSMessaging
-48 com.android.inputmethod.pinyin
-49 com.android.providers.userdictionary
-50 com.xysecv5
-51 com.activitydemo
+## 🧑‍💻 Fun Facts
 
-Choose Which file you want to get? (Enter 1,2,3....)
-Enter R to go back to default directory
-Enter e to exit
-Enter A to get all .db files from this directory
+- 🏆 Discovered [CVE-2013-0926](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0926) (WebKit sandbox escape on iOS & Android)
+- 🍜 Street food explorer | 🚁 Drone pilot | ✍️ Occasional poet
 
-3
+> “Secure code is great. Secure systems are better. Secure defaults are best.”
 
-Found Files in the /data/data/com.android.browser/ Folder!
+---
 
-1 app_appcache
-2 cache
-3 app_geolocation
-4 shared_prefs
-5 lib
-6 app_thumbnails
-7 app_icons
-8 databases
-9 app_databases
-
-Choose Which file you want to get? (Enter 1,2,3....)
-Enter R to go back to default directory
-Enter e to exit
-Enter A to get all .db files from this directory
-
-A
-getting all .db files from /data/data/com.android.browser/ directory and beneath it too
-
-.............................32 KB/s (3072 bytes in 0.093s)
-53 KB/s (19456 bytes in 0.353s)
-27 KB/s (9216 bytes in 0.325s)
-50 KB/s (14336 bytes in 0.275s)
-54 KB/s (48128 bytes in 0.868s)
-3 KB/s (512 bytes in 0.154s)
-
-Found Files in the /data/data/com.android.browser/ Folder!
-
-1 app_appcache
-2 cache
-3 app_geolocation
-4 shared_prefs
-5 lib
-6 app_thumbnails
-7 app_icons
-8 databases
-9 app_databases
-
-Choose Which file you want to get? (Enter 1,2,3....)
-Enter R to go back to default directory
-Enter e to exit
-Enter A to get all .db files from this directory
-
-e
-```
-
-File Structure
-==============
-
-- adb-windows.exe  -> adb binary for windows
-- adb-linux  -> adb binary for linux
-- adb-mac  -> adb binary for mac
-- script.php -> the logic and the commandline interface
-
-Author
-======
-
-Coded by Subho Halder
-- Web: http://subhohalder.com/
-- Blog: http://subho.me/
-
-Feel free to contact me !
+_Thanks for stopping by! If you’re passionate about security, reverse engineering, or just love good food and flying drones, let’s connect!_
