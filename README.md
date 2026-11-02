@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm subho007
 
-I'm the Co-Founder & CEO of [Appknox](https://www.appknox.com), where I help build cutting-edge security products to make mobile applications safer worldwide. My journey is all about offensive security research, mobile app security, and empowering teams to ship secure code at scale.
+I'm the Co-Founder & CEO of [MATT Security](https://matt.security) & [Appknox](https://www.appknox.com), where I help build cutting-edge security products to make safer software beings worldwide. My journey is all about offensive security research, and empowering teams to ship secure code at scale.
 
 ---
 
@@ -32,7 +32,7 @@ I'm the Co-Founder & CEO of [Appknox](https://www.appknox.com), where I help bui
 
 - [LinkedIn](https://www.linkedin.com/in/subhohalder/)
 - [Twitter (X)](https://x.com/sunnyrockzzs)
-- [subho.me](https://subho.me)
+- [subhohalder.com](https://subhohalder.com)
 
 ---
 
